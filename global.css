@@ -1,0 +1,23 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quality{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: aliceblue;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.divTexto{
+    display: flex;
+    flex-direction: row;
+}
+
+.alinhar{
+    display: flex;
+    flex-direction: column;
+    
+}

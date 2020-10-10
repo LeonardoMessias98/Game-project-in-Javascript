@@ -1,0 +1,50 @@
+body{
+    background-image: url('./img//background.jpg');
+    
+}
+
+.trocaCor{
+    color: rgb(255, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    cursor: pointer;
+    width: max-content;
+    height: 50px;
+    border: none;
+    background: none;
+}
+
+#sobreClasse{
+    
+    width: 400px;
+    height: 50px;
+}
+
+#classImg{
+    border:2px solid white;
+    border-radius: 30px;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+#submit{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    width: max-content;
+    height: 50px;
+    background: red;
+    border-radius: 20px;
+    box-shadow: aliceblue ;
+}

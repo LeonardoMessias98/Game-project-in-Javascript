@@ -1,0 +1,10 @@
+body{
+    background-image: url('./img/background.jpg');
+}
+
+#firstTexto{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: aliceblue;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+}

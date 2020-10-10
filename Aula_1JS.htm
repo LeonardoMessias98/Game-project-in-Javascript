@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cenario 1</title>
+</head>
+<body>
+    
+    <form onSubmit="myFunction(event)">
+        <div style="display:flex; flex-direction:column; padding:20px" >
+            <input id='Nome' style="width:300px;" placeholder="Nome"/>
+            <input id='Raça' style="width:300px" placeholder="Raça"/>
+            <input id='Classe' style="width:300px" placeholder="Classe"/>
+            <input id='Facção' style="width:300px" placeholder="Facção"/>
+            <button type="submit" style="width: max-content; height: 50px; background-color:blue; align-items:center;" >
+                <h4 style="color: aliceblue;">Cadastrar</h4>
+            </button>
+        </div>
+    </form>
+    <script>
+        function myFunction(e){
+            e.preventDefault();
+            const personagem = new Object();
+            personagem.nome = document.getElementById('Nome').value
+            personagem.raca = document.getElementById('Raça').value
+            personagem.classe = document.getElementById('Classe').value
+            personagem.faccao = document.getElementById('Facção').value
+            if (personagem.raca == "Fada"){
+                return console.table('Porra de fadinha, te deito na porrada')
+            }
+            return (console.table(personagem))
+        }
+    </script>
+</body>
+</html>
